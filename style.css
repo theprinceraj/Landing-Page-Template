@@ -24,17 +24,52 @@ nav {
 }
 
 nav a {
+    color: #322E56;
     text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+nav a:hover {
+    color: rgb(211, 62, 8);
 }
 
 .page {
     width: 100%;
     height: 110vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #page-1 {
     background-color: #FDDB9F;
+}
+
+#text-page-1 {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 200;
+}
+
+#text-page-1>h2:nth-child(1) {
+    font-size: 2.9vw;
+    color: #322E56;
+    margin-bottom: 1.2rem;
+}
+
+#text-page-1>h2:nth-child(2),
+#text-page-1>h2:nth-child(3) {
+    font-size: 5vw;
+    background-color: #EA5E26;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    margin: 0.5rem;
+    margin-left: 0;
 }
 
 #circle_top {
@@ -79,10 +114,11 @@ nav a {
 
 #heart {
     position: absolute;
-    right: 45%;
+    right: 40%;
     bottom: 40%;
     z-index: 200;
     width: 100px;
+    transition: all ease 0.2s;
 }
 
 #like {
@@ -91,6 +127,12 @@ nav a {
     bottom: 10%;
     z-index: 200;
     width: 90px;
+    transition: all ease 0.2s;
+}
+
+#heart:hover,
+#like:hover {
+    scale: 1.2;
 }
 
 #arrow-bottom {
@@ -107,4 +149,12 @@ nav a {
     right: 40%;
     z-index: 200;
     width: 190px;
+}
+
+#circle {
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    z-index: 200;
+    width: 450px;
 }
