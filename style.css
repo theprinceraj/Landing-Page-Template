@@ -158,3 +158,27 @@ nav a:hover {
     z-index: 200;
     width: 450px;
 }
+
+#page-2 {
+    background-color: #F8F2EE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#page-2 img {
+    margin: 1rem;
+    width: 40%
+}
+#text-page-2 {
+    width: 49%;
+}
+
+#text-page-2 h5 {
+    font-size: 5.5vw;
+}
+
+#text-page-2 span {
+    color: #ff6a2f;
+}
