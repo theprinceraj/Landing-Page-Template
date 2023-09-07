@@ -36,7 +36,7 @@ nav a:hover {
 .page {
     width: 100%;
     height: 110vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #page-1 {
@@ -171,6 +171,7 @@ nav a:hover {
     margin: 1rem;
     width: 40%
 }
+
 #text-page-2 {
     width: 49%;
 }
@@ -181,4 +182,54 @@ nav a:hover {
 
 #text-page-2 span {
     color: #ff6a2f;
+}
+
+#text-page-2>p {
+    font-size: large;
+    margin: 0.5rem;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+#blocks-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 48%;
+    padding: 1rem;
+    padding-left: 0;
+    margin: 0.5rem;
+    margin-left: 0;
+}
+
+.block h3 {
+    font-size: 2.5vw;
+}
+
+#page-3 {
+    background-color: #322E56;
+}
+
+#left-page-3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+#left-page-3 h3 {
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+#right-page-3 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
