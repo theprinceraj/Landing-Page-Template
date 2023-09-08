@@ -338,6 +338,7 @@ nav a:hover {
     margin: 1rem 0;
     padding: 1rem 0;
 }
+
 #page-5>h5>span {
     color: orangered;
 }
@@ -394,4 +395,31 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 130vh;
+}
+
+#page-6>h2 {
+    font-size: 4vw;
+    margin: 3rem 0;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+#clients-container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#clients-container img {
+    width: 15%;
+    margin: 3rem 4vw;
+    filter: grayscale(1) opacity(70%);
+    transition: all ease 0.5s;
+}
+
+#clients-container img:hover {
+    filter: grayscale(0) opacity(1);
 }
