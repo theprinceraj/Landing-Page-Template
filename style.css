@@ -212,12 +212,18 @@ nav a:hover {
 
 #page-3 {
     background-color: #322E56;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 #left-page-3 {
+    margin-top: 4vh;
+    width: 40%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     color: white;
 }
 
@@ -227,9 +233,36 @@ nav a:hover {
     margin: 2rem;
 }
 
+#left-page-3 ul li {
+    font-size: 2.6vw;
+    font-weight: 600;
+    margin: 1rem;
+    margin-left: 0;
+    padding: 1rem 3rem;
+    list-style: none;
+    background-color: white;
+    color: #322E56;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
 #right-page-3 {
+    margin-top: 6rem;
+    margin-left: 4rem;
     color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 48%;
+}
+
+#right-page-3 p {
+    font-size: large;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+#right-page-3 a {
+    color: #FF7200;
 }
