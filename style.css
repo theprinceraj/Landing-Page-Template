@@ -423,3 +423,65 @@ nav a:hover {
 #clients-container img:hover {
     filter: grayscale(0) opacity(1);
 }
+
+#page-7 {
+    background: #19578D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+}
+
+#left-page-7 {
+    width: 50%;
+    color: white;
+    padding: 0 3vw;
+}
+
+#left-page-7 h1 {
+    font-size: 5vw;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+#left-page-7 h4 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+#left-page-7 span {
+    color: #FF7200;
+}
+
+#left-page-7 h5 {
+    color: #FF7200;
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding: 1rem 0;
+    padding-bottom: 0.5rem;
+}
+
+#left-page-7 p {
+    font-weight: 500;
+    font-size: 1.2vw;
+    word-spacing: 4px;
+}
+
+#right-page-7 {
+    display: flex;
+    align-items: center;
+    background-color: #F8931D;
+    width: 50%;
+    height: 100%;
+}
+
+#right-page-7 img {
+    width: 100%;
+}
+
+#page-8 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
