@@ -1,7 +1,7 @@
-var Swiper = new Swiper('.testimonials-container', {
+var Swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
     loop: true,
     grabCursor: true,
-    slidesPerView: 1,
     pagination: {
         el: ".swiper-pagination",
         clickable: true
