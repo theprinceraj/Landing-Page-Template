@@ -484,4 +484,73 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.testimonial {
+    position: relative;
+    max-width: 90vw;
+    width: 90%;
+    height: 70vh;
+    max-height: 70vh;
+    overflow: hidden;
+}
+
+.testimonial .image {
+    width: 150px;
+    object-fit: cover;
+}
+
+.testimonial .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.slide p {
+    text-align: center;
+    padding: 0 160px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.slide .quote-icon {
+    font-size: 30px;
+    color: #4070f4;
+}
+
+.slide .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details .name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #d33e08;
+}
+
+@media screen and (max-width: 768px) {
+    .slide p {
+        padding: 0 20px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
 }
