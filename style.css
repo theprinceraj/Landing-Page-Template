@@ -289,7 +289,7 @@ nav a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20vh;
+    margin-top: 17vh;
 }
 
 .service-item {
@@ -324,8 +324,74 @@ nav a:hover {
     transition: all ease 0.5s;
 }
 
-#service-2,
-#service-3,
-#service-4 {
-    border-left: 1px solid white;
+#page-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 120vh;
+}
+
+#page-5>h5 {
+    width: 80%;
+    font-size: 4vw;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+#page-5>h5>span {
+    color: orangered;
+}
+
+#warrior-container {
+    margin-top: 10vh;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.warrior-item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.4s;
+    border: 2px solid transparent;
+    border-radius: 13px;
+}
+
+.warrior-item:hover {
+    /* border-color: black; */
+    color: white;
+    background: #EA5E26;
+}
+
+.warrior-item:hover img {
+    border: 2px solid white;
+}
+
+.warrior-item img {
+    border-radius: 13px;
+    height: 250px;
+    object-fit: contain;
+    margin: 0.5rem;
+    transition: all ease 0.5s;
+}
+
+.warrior-item p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2vw;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    transition: all ease 0.2s;
+}
+
+#page-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
