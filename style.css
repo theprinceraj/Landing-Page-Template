@@ -29,6 +29,10 @@ nav a {
     transition: all ease 0.5s;
 }
 
+nav img {
+    height: 120px;
+}
+
 nav a:hover {
     color: #d33e08;
 }
