@@ -5,6 +5,7 @@ Blaze Marketing Innovator is a beautiful and clean landing page website for an i
 
 ## Preview
 https://github.com/theprinceraj/OCTANET_SEPTEMBER/assets/116755566/a5f5c24f-94fa-48e2-9c8b-94e7153f4515
+You can also watch the preview at: https://youtu.be/tr7Awny6Edc
 
 ## Table of Contents
 1. [Description](#description)
