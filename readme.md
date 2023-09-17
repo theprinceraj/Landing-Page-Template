@@ -1,7 +1,7 @@
 # OCTANER_SEPTEMBER : TASK 1
 
 ## Introduction
-Welcome to the Blaze Marketing Innovators GitHub repository. This repository contains the code for a marketing services website. Blaze Marketing Innovators is a team of highly skilled professionals specializing in data-driven digital marketing. We collaborate with top-tier brands across various industries to create impactful and creative content in any media format.
+Blaze Marketing Innovator is a beautiful and clean landing page website for an imaginary marketing services company. Developed as part of internship, this web application offers a seamless way to display your services, features, clients and more!
 
 ## Preview
 https://github.com/theprinceraj/OCTANET_SEPTEMBER/assets/116755566/a5f5c24f-94fa-48e2-9c8b-94e7153f4515
