@@ -1,4 +1,4 @@
-# Blaze Marketing Innovators
+# OCTANER_SEPTEMBER : TASK 1
 
 ## Introduction
 Welcome to the Blaze Marketing Innovators GitHub repository. This repository contains the code for a marketing services website. Blaze Marketing Innovators is a team of highly skilled professionals specializing in data-driven digital marketing. We collaborate with top-tier brands across various industries to create impactful and creative content in any media format.
@@ -22,7 +22,8 @@ Our website serves as a showcase for our marketing services, including Marketing
 ## Installation
 To view this website locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/theprinceraj/OCTANET_SEPTEMBER`
-2. Open `index.html` in your web browser.
+2. Install "Live Server" extension in VS Code.
+2. Open `index.html` in your web browser using Live Server.
 
 ## Usage
 Feel free to explore the website to learn more about Blaze Marketing Innovators, our team, and our services. You can navigate through different sections using the navigation links.
