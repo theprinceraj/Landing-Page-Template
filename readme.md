@@ -6,15 +6,11 @@ Welcome to the Blaze Marketing Innovators GitHub repository. This repository con
 ## Preview
 https://github.com/theprinceraj/OCTANET_SEPTEMBER/assets/116755566/a5f5c24f-94fa-48e2-9c8b-94e7153f4515
 
-
-
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Features](#features)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Description
 Our website serves as a showcase for our marketing services, including Marketing Services, Experiential Marketing, Retail Branding, and customized gifting solutions. We prioritize simplicity for both you and your customers, delivering straightforward and transparent services with clear, measurable results.
@@ -23,7 +19,7 @@ Our website serves as a showcase for our marketing services, including Marketing
 To view this website locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/theprinceraj/OCTANET_SEPTEMBER`
 2. Install "Live Server" extension in VS Code.
-2. Open `index.html` in your web browser using Live Server.
+3. Open `index.html` in your web browser using Live Server.
 
 ## Usage
 Feel free to explore the website to learn more about Blaze Marketing Innovators, our team, and our services. You can navigate through different sections using the navigation links.
