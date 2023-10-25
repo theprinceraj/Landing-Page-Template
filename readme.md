@@ -1,4 +1,4 @@
-# OCTANER_SEPTEMBER : TASK 1
+# Landing Page Basic Template
 
 ## Introduction
 Blaze Marketing Innovator is a beautiful and clean landing page website for an imaginary marketing services company. Developed as part of internship, this web application offers a seamless way to display your services, features, clients and more!
